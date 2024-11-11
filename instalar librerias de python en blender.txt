@@ -1,0 +1,28 @@
+//Para saber la ruta en blender ejecutar en consola python de blender
+
+import sys
+print(sys.executable)
+
+//debe aparecer una ruta así:
+
+C:\Program Files\Blender Foundation\Blender 4.1\4.1\python\bin\python.exe
+
+
+//Instalación de librerias de python en blender.
+
+cmd "ejecutar como admi"
+
+//ingresar a la carpeta de blender
+
+cd "C:\Program Files\Blender Foundation\Blender 4.1\4.1\python\bin"
+
+//instalar matplotlib
+python.exe -m pip install matplotlib -t "C:\Program Files\Blender Foundation\Blender 4.1\4.1\python\lib\site-packages"
+
+
+//instalar networkx
+python.exe -m pip install networkx -t "C:\Program Files\Blender Foundation\Blender 4.1\4.1\python\lib\site-packages"
+
+//Para verificar si quedó funcionando en la consola de python de blender ejecutar
+
+import matplotlib //O la libreria que haya importado y breve, sino aparece nada, se instalo correctamente.
